@@ -12,3 +12,15 @@ La fel, cât ține de aspectul de securitate am realizat implementarea măsurilo
 Am realizat implementarea sesiunilor și autentificarea utilizatorilor privelegiați. Aici mai întâi prealabil am criptat parola **Angeles#96** prin intermediul funcției **password_hash()** cu parametrul **PASSWORD_DEFAULT**, adică am criptat parola cu un algoritm puternic **bcrypt** contra atacurilor de tip **brute-force**, la fel deoarece prealabil am salvat în tabelul users al bazei de date hash-ul parolei, am evitat prin aceasta păstrarea acesteia ca plaintext în cod. După doar realizăm verificarea dacă parola introdusă de către utilizator corespunde cu hash-ul salvat în BD prin intermediul funcției **password_verify()**.
 
 Citirea și scrierea în fișiere are loc utilizând funcțiile PHP pentru lucru cu fișierele **fopen()**, **fgets()**, **fwrite()**, **implode()** și **explode()**.
+
+![screen1](screenshots/Screenshot_1.jpg)
+![screen2](screenshots/Screenshot_2.jpg)
+![screen3](screenshots/Screenshot_3.jpg)
+![screen4](screenshots/Screenshot_4.jpg)
+![screen5](screenshots/Screenshot_5.jpg)
+![screen6](screenshots/Screenshot_6.jpg)
+![screen7](screenshots/Screenshot_7.jpg)
+![screen8](screenshots/Screenshot_8.jpg)
+![screen9](screenshots/Screenshot_9.jpg)
+![screen10](screenshots/Screenshot_10.jpg)
+![screen11](screenshots/Screenshot_11.jpg)
